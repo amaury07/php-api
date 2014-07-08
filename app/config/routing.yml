@@ -1,0 +1,4 @@
+astromatch_api:
+    resource: "@AstromatchApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
