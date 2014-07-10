@@ -1,0 +1,3 @@
+spiceme_api_v1:
+    resource: "@SpiceMeApiBundle/Resources/config/routing/v1.yml"
+    prefix:   /v1

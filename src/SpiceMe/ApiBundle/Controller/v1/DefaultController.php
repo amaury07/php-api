@@ -1,6 +1,6 @@
 <?php
 
-namespace Astromatch\ApiBundle\Controller\v1;
+namespace SpiceMe\ApiBundle\Controller\v1;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 

@@ -1,0 +1,7 @@
+parameters:
+#    spiceme_api.example.class: SpiceMe\ApiBundle\Example
+
+services:
+#    spiceme_api.example:
+#        class: %spiceme_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

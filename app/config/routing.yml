@@ -1,4 +1,4 @@
-astromatch_api:
-    resource: "@AstromatchApiBundle/Resources/config/routing.yml"
+spiceme_api:
+    resource: "@SpiceMeApiBundle/Resources/config/routing.yml"
     prefix:   /
 

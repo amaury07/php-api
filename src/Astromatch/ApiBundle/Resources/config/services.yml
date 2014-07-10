@@ -1,7 +1,0 @@
-parameters:
-#    astromatch_api.example.class: Astromatch\ApiBundle\Example
-
-services:
-#    astromatch_api.example:
-#        class: %astromatch_api.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,6 +1,6 @@
 <?php
 
-namespace Astromatch\ApiBundle\Tests\Controller;
+namespace SpiceMe\ApiBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

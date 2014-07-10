@@ -1,0 +1,3 @@
+v1_index:
+    path: /
+    defaults: { _controller: SpiceMeApiBundle:v1/Default:index, _format: json }

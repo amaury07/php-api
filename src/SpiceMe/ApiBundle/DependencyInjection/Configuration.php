@@ -1,6 +1,6 @@
 <?php
 
-namespace Astromatch\ApiBundle\DependencyInjection;
+namespace SpiceMe\ApiBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('astromatch_api');
+        $rootNode = $treeBuilder->root('spiceme_api');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
