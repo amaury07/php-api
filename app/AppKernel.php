@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new SpiceMe\ApiBundle\SpiceMeApiBundle(),
+            new SpiceMe\DomainBundle\SpiceMeDomainBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
