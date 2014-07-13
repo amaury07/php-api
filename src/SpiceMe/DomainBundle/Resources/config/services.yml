@@ -1,0 +1,7 @@
+parameters:
+#    spice_me_domain.example.class: SpiceMe\DomainBundle\Example
+
+services:
+#    spice_me_domain.example:
+#        class: %spice_me_domain.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -9,8 +9,10 @@ class DefaultController extends Controller
     public function indexAction()
     {
         return $this->get('doctrine')
-            ->getConnection()
-            ->query('SELECT VERSION();')
-            ->fetchAll()[0];
+            ->getEntityManager()
+            ->createQuery('SELECT p from SpiceMeDomainBundle:Person p')
+            ->getResult();
     }
+    
+    
 }

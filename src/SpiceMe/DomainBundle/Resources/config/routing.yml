@@ -1,0 +1,3 @@
+spice_me_domain_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SpiceMeDomainBundle:Default:index }

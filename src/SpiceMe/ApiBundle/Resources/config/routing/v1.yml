@@ -1,3 +1,17 @@
 v1_index:
     path: /
     defaults: { _controller: SpiceMeApiBundle:v1/Default:index, _format: json }
+    
+v1_matches_get:
+    path: /matches
+    defaults: { _controller: SpiceMeApiBundle:v1/Matches:get, _format: json }
+    methods: [GET]
+    
+v1_matches_put:
+    path: /matches
+    defaults: { _controller: SpiceMeApiBundle:v1/Matches:put, _format: json }
+    methods: [PUT]
+v1_register_put:
+    path: /register
+    defaults: { _controller: SpiceMeApiBundle:v1/Register:put, _format: json }
+    methods: [PUT]
